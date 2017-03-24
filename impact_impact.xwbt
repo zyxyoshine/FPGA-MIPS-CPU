@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=E:\mycpu\impact.xsl
+OUTFILE=E:\mycpu\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=E:\mycpu
+LICENSE=iMPACT
+USER_INFO=iMPACT

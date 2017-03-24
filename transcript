@@ -1,0 +1,254 @@
+# Reading F:/modeltech_pe_10.4c/tcl/vsim/pref.tcl
+# do {cpu_tb.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:14 on Jun 14,2016
+# vlog -reportprogress 300 keyboard.v 
+# -- Compiling module keyboard
+# 
+# Top level modules:
+# 	keyboard
+# End time: 20:45:14 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:14 on Jun 14,2016
+# vlog -reportprogress 300 ipcore_dir/ip_imem.v 
+# -- Compiling module ip_imem
+# 
+# Top level modules:
+# 	ip_imem
+# End time: 20:45:14 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:14 on Jun 14,2016
+# vlog -reportprogress 300 hexto7seg.v 
+# -- Compiling module hexto7seg
+# 
+# Top level modules:
+# 	hexto7seg
+# End time: 20:45:14 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:14 on Jun 14,2016
+# vlog -reportprogress 300 Regfiles.v 
+# -- Compiling module Regfiles
+# -- Compiling module regfiles_decoder
+# -- Compiling module regfiles_mux
+# -- Compiling module regfiles_pcreg
+# 
+# Top level modules:
+# 	Regfiles
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Ram.v 
+# -- Compiling module Ram
+# 
+# Top level modules:
+# 	Ram
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Pc.v 
+# -- Compiling module Pc
+# 
+# Top level modules:
+# 	Pc
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Npc.v 
+# -- Compiling module Npc
+# 
+# Top level modules:
+# 	Npc
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Mux5.v 
+# -- Compiling module Mux5
+# 
+# Top level modules:
+# 	Mux5
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Mux31.v 
+# -- Compiling module Mux31
+# 
+# Top level modules:
+# 	Mux31
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Mux1.v 
+# -- Compiling module Mux1
+# 
+# Top level modules:
+# 	Mux1
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Imem.v 
+# -- Compiling module Imem
+# 
+# Top level modules:
+# 	Imem
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Ext5.v 
+# -- Compiling module Ext5
+# 
+# Top level modules:
+# 	Ext5
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Ext18.v 
+# -- Compiling module Ext18
+# 
+# Top level modules:
+# 	Ext18
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:15 on Jun 14,2016
+# vlog -reportprogress 300 Ext16.v 
+# -- Compiling module Ext16
+# 
+# Top level modules:
+# 	Ext16
+# End time: 20:45:15 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:16 on Jun 14,2016
+# vlog -reportprogress 300 display8digit.v 
+# -- Compiling module display8digit
+# 
+# Top level modules:
+# 	display8digit
+# End time: 20:45:16 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:16 on Jun 14,2016
+# vlog -reportprogress 300 Combin.v 
+# -- Compiling module Combin
+# 
+# Top level modules:
+# 	Combin
+# End time: 20:45:16 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:16 on Jun 14,2016
+# vlog -reportprogress 300 Alu.v 
+# -- Compiling module Alu
+# 
+# Top level modules:
+# 	Alu
+# End time: 20:45:16 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:16 on Jun 14,2016
+# vlog -reportprogress 300 Add.v 
+# -- Compiling module Add
+# 
+# Top level modules:
+# 	Add
+# End time: 20:45:16 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:16 on Jun 14,2016
+# vlog -reportprogress 300 cpu.v 
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 20:45:16 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:16 on Jun 14,2016
+# vlog -reportprogress 300 cpu_tb.v 
+# -- Compiling module cpu_tb
+# 
+# Top level modules:
+# 	cpu_tb
+# End time: 20:45:16 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE vlog 10.4c Compiler 2015.07 Jul 20 2015
+# Start time: 20:45:16 on Jun 14,2016
+# vlog -reportprogress 300 e:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 20:45:16 on Jun 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.cpu_tb glbl 
+# Start time: 20:45:16 on Jun 14,2016
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.Npc
+# Loading work.Pc
+# Loading work.Imem
+# Loading work.ip_imem
+# Loading xilinxcorelib_ver.DIST_MEM_GEN_V7_2
+# Loading work.Combin
+# Loading work.Regfiles
+# Loading work.regfiles_decoder
+# Loading work.regfiles_pcreg
+# Loading work.regfiles_mux
+# Loading work.Alu
+# Loading work.Ram
+# Loading work.keyboard
+# Loading work.Ext5
+# Loading work.Ext16
+# Loading work.Ext18
+# Loading work.Add
+# Loading work.Mux1
+# Loading work.Mux5
+# Loading work.Mux31
+# Loading work.display8digit
+# Loading work.hexto7seg
+# Loading work.glbl
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: ZhouYuxing  Hostname: DESKTOP-S3C9MF1  ProcessID: 10340
+# 
+#           Attempting to use alternate WLF file "./wlfthryt30".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfthryt30
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "ip_imem.mif". Expected 2048, found 2.    : E:/xilinx/14.7/ISE_DS/ISE/verilog/src/XilinxCoreLib/DIST_MEM_GEN_V7_2.v(248)
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/uut/imem/_ip_imem/inst
+# End time: 20:45:56 on Jun 14,2016, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 3

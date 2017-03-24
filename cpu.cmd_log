@@ -1,0 +1,158 @@
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf 
+netgen -intstyle ise -s 3  -pcf cpu.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim cpu.ncd cpu_timesim.v 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 
+xst -intstyle ise -ifn "E:/mycpu/cpu.xst" -ofn "E:/mycpu/cpu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Nexys4DDR_Master.ucf -p xc7a100t-csg324-3 cpu.ngc cpu.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o cpu_map.ncd cpu.ngd cpu.pcf 
+par -w -intstyle ise -ol high -mt off cpu_map.ncd cpu.ncd cpu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu.twx cpu.ncd -o cpu.twr cpu.pcf -ucf Nexys4DDR_Master.ucf 
+bitgen -intstyle ise -f cpu.ut cpu.ncd 

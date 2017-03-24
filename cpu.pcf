@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jun 14 22:08:11 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk100mhz" LOCATE = SITE "E3" LEVEL 1;
+COMP "ps2_clk" LOCATE = SITE "F4" LEVEL 1;
+COMP "digitselect<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "digitselect<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "digitselect<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "digitselect<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "digitselect<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "digitselect<7>" LOCATE = SITE "U13" LEVEL 1;
+COMP "digitselect<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "digitselect<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "segments<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "segments<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "segments<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "segments<2>" LOCATE = SITE "K16" LEVEL 1;
+COMP "segments<1>" LOCATE = SITE "R10" LEVEL 1;
+COMP "segments<7>" LOCATE = SITE "H15" LEVEL 1;
+COMP "segments<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "segments<5>" LOCATE = SITE "T11" LEVEL 1;
+COMP "ps2_data" LOCATE = SITE "B2" LEVEL 1;
+COMP "frst" LOCATE = SITE "C12" LEVEL 1;
+SCHEMATIC END;
+
